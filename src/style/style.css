@@ -63,13 +63,17 @@ body {
     margin-top: 5px;
 }
 
-.link {
+.linkdin, .linkpdf {
     margin-left: 5px;
     text-decoration: none;
     text-decoration: underline;
     color: rgb(188, 188, 188);
     font-size: 12px;
     font-weight: bolder;
+}
+
+.linkdin {
+    margin-right: 10px;
 }
 
 .body-container {

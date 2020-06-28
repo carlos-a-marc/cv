@@ -2,7 +2,7 @@ import React from 'react';
 import foto from '../img/me.jpg';
 import { useSpring, animated, config } from 'react-spring'
 import { MdLocationOn, MdMailOutline, MdSmartphone } from 'react-icons/md';
-import { FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin, FaFilePdf } from 'react-icons/fa';
 
 export default function Cabecalho() {
 
@@ -36,7 +36,10 @@ export default function Cabecalho() {
                 </div>
                 <div className='icon-link'>
                     <FaLinkedin size={14} color='rgb(188, 188, 188)' />
-                    <a href='https://www.linkedin.com/in/carlos-alberto-marc' target='_blanck' className='link'>Linkedin</a>
+                    <a href='https://www.linkedin.com/in/carlos-alberto-marc' target='_blanck' className='linkdin'>Linkedin</a>
+
+                    <FaFilePdf size={14} color='rgb(188, 188, 188)' />
+                    <a href='https://drive.google.com/file/d/1cFUKma4a5mb1uwXSVSEnyhrpF7N3niyS/view?usp=sharing' target='_blanck' className='linkpdf'>CV em PDF</a>
                 </div>
 
             </animated.div >
