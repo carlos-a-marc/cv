@@ -39,7 +39,7 @@ export default function Cabecalho() {
                     <a href='https://www.linkedin.com/in/carlos-alberto-marc' target='_blanck' className='linkdin'>Linkedin</a>
 
                     <FaFilePdf size={14} color='rgb(188, 188, 188)' />
-                    <a href='https://drive.google.com/file/d/1cFUKma4a5mb1uwXSVSEnyhrpF7N3niyS/view?usp=sharing' target='_blanck' className='linkpdf'>CV em PDF</a>
+                    <a href='https://drive.google.com/file/d/1UdXOc3CvM-FLUwPz-_MNsRelr28a9Yhp/view?usp=sharing' target='_blanck' className='linkpdf'>CV em PDF</a>
                 </div>
 
             </animated.div >
